@@ -1,15 +1,16 @@
 {
   "name": "nicejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lightweight react framework",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish":"npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nick-js/nick-web.git"
+    "url": "git+https://github.com/nice-js/nickjs.git"
   },
   "keywords": [
     "react",
@@ -23,9 +24,9 @@
   "author": "liangyali",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nick-js/nick-web/issues"
+    "url": "https://github.com/nick-js/nicejs/issues"
   },
-  "homepage": "https://github.com/nick-js/nick-web#readme",
+  "homepage": "https://github.com/nick-js/nicejs#readme",
   "dependencies": {
     "classnames": "^2.2.5",
     "global": "^4.3.1",
