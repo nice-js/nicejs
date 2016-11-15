@@ -1,6 +1,6 @@
 {
   "name": "nicejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lightweight react framework",
   "main": "lib/index.js",
   "scripts": {

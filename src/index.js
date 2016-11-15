@@ -7,8 +7,6 @@ import {
 
 import create from './create'
 
-console.log(create)
-
 export default create({
   initialReducer: {
     routing
